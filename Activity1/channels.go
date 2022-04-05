@@ -19,5 +19,11 @@ func main() {
 			break
 		}
 		fmt.Println("Received ", v, ok)
+		// output be like:
+		// Received 0 true
+		// Received 1 true
+		// ....
+		// Received 9 true
+
 	}
 }

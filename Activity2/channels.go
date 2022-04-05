@@ -9,4 +9,8 @@ func main() {
 
 	fmt.Println(<-ch)
 	fmt.Println(<-ch)
+	//output be like:
+	// 1
+	// 2
+
 }
